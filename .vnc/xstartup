@@ -1,4 +1,4 @@
-#!/bin/sh
+#! /bin/bash
 
 vncconfig -iconic &
 unset SESSION_MANAGER
