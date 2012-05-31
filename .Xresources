@@ -1,0 +1,28 @@
+UXTerm.loginShell: false
+UXTerm*saveLines: 8192
+UXTerm*scrollBar: true
+UXTerm*fastScroll: true
+UXTerm.VT100.charClass: 33:48,35-38:48,42-43:48,45-47:48,58:48,61:48,63-64:48,126:48
+
+! http://bugzilla.mozilla.org/show_bug.cgi?id=40340&user=akkana@netscape.com
+
+! UXTerm*font: -xos4-terminus-medium-r-normal--12-120-72-72-c-60-iso10646-1
+! gohu
+UXTerm*font:     -gohu-gohufont-medium-r-normal--14-100-100-100-c-80-iso10646-1
+UXTerm*boldFont: -gohu-gohufont-bold-r-normal--14-100-100-100-c-80-iso10646-1
+UXTerm.VT100.color0: #2e3436
+UXTerm.VT100.color1: #cc0000
+UXTerm.VT100.color2: #4e9a06
+UXTerm.VT100.color3: #c4a000
+UXTerm.VT100.color4: #3465a4
+UXTerm.VT100.color5: #75507b
+UXTerm.VT100.color6: #0b939b
+UXTerm.VT100.color7: #d3d7cf
+UXTerm.VT100.color8: #555753
+UXTerm.VT100.color9: #ef2929
+UXTerm.VT100.color10: #8ae234
+UXTerm.VT100.color11: #fce94f
+UXTerm.VT100.color12: #729fcf
+UXTerm.VT100.color13: #ad7fa8
+UXTerm.VT100.color14: #00f5e9
+UXTerm.VT100.color15: #eeeeec

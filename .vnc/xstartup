@@ -1,0 +1,12 @@
+#!/bin/sh
+
+vncconfig -iconic &
+unset SESSION_MANAGER
+if [[ -r $HOME/.Xresources ]]; then
+	xrdb $HOME/.Xresources
+fi
+xset +fp $HOME/.fonts
+xset fp rehash
+xsetroot -solid grey
+uxterm -geometry 80x24+10+10 -ls -title "$VNCDESKTOP Desktop" &
+exec hackedbox

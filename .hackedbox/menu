@@ -1,0 +1,21 @@
+[begin] (Hackedbox)
+ [exec] (term) {uxterm}
+
+# [submenu] (User Styles)
+#   [stylesdir] (~/.hackedbox/styles)
+# [end]
+ [submenu] (Default Styles)
+   [stylesdir] (/usr/share/hackedbox/styles)
+ [end]
+ [workspaces] (Workspace List)
+ [config] (Configuration)
+ [reconfig] (Reconfigure)
+ [restart] (Restart)
+ [submenu] (Others) {Other Window Managers}
+  [restart] (xmonad) {xmonad}
+  [restart] (WindowMaker) {wmaker}
+ [end]
+
+ [exec] (Lock Screen) {xlock -allowroot -usefirst}
+ [exit] (Exit)
+[end]
